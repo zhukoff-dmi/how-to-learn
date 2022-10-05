@@ -115,11 +115,144 @@
   font-size: 24px;
 }
 
+/* начало третей секции */
+.digits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 auto 20px;
+  width: 60%;
+  text-align: center;
+}
 
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.table {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
+.table__cell_place_digits {
+  width: 250px;
+  list-style-type: none;
+  margin-top: 60px;
+}
 
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.table__text {
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: normal;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+/* начало секции Метод Фейнмана */
+.feynman {
+  background-color: #f2f2f2;
+  height: 890px;
+  box-sizing: border-box;
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.feynman__title {
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.faynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 70px auto 0;
+  z-index: 3;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  z-index: 4;
+  text-decoration: none;
+}
+
+.feynman__mail-illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* начало секции Джош Кауфмае */
+.kaufman {
+  padding: 90px 0;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color:white
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  list-style-type: none;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
 
 
 
