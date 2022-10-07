@@ -55,6 +55,11 @@
   margin: 0;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__mail-illustration {
   position: absolute;
   width: 765px;
@@ -89,15 +94,16 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px; 
+  min-width: 784px;
 }
+
 .two-columns__brief {
   width: 175px;
   font-weight: normal;
   line-height: 1.2;
   font-size: 18px;
   margin: 0;
-  color:#2f80ed;
+  color: #2f80ed;
 }
 
 .two-columns__paragraph {
@@ -119,7 +125,6 @@
 
 /* начало третей секции */
 .digits {
-  padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -168,23 +173,24 @@
 }
 
 .table__text {
- line-height: 1.2;
- font-size: 18px;
- font-weight: normal;
- margin: 0 auto;
- margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 /* начало секции Метод Фейнмана */
 .feynman {
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   box-sizing: border-box;
   padding-top: 100px;
   position: relative;
   display: flex;
   flex-direction: column;
 }
+
 .feynman__title {
   width: 648px;
   line-height: 1.15;
@@ -212,6 +218,7 @@
   right: 40px;
   z-index: 4;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__mail-illustration {
@@ -239,7 +246,7 @@
 }
 
 .section-subtitle_theme_dark {
-  color:white;
+  color: white;
   z-index: 3;
 }
 
@@ -260,11 +267,14 @@
 }
 
 .kaufman__triangle {
+  background-image: url(/images/kaufman-triangle.svg);
+  background-size: cover;
   position: absolute;
   width: 877px;
   height: 877px;
   top: 0;
   right: -210px;
+  margin: 0;
 }
 
 /* начало секции футер */
@@ -324,12 +334,12 @@
 }
 
 .footer__column-links {
- list-style-type: none;
- margin: 20px 0 16px 0;
- padding: 0;
+  list-style-type: none;
+  margin: 20px 0 16px 0;
+  padding: 0;
 }
 
-.link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
