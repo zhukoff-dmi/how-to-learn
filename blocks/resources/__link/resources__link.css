@@ -1,0 +1,8 @@
+.resources__link {
+    margin: 0;
+  }
+  
+  .resources__link:hover {
+    transition: 1s linear;
+    opacity: 0.7;
+  }
